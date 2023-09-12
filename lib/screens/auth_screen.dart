@@ -32,7 +32,7 @@ class _AuthScreenState extends State<AuthScreen> {
                       });
                     },
                     behavior: HitTestBehavior.opaque,
-                    child: BottomText(isRegisterScreen: isRegisterScreen),
+                    child: BottomText(isRegisterScreen),
                   )
                 ],
               ),

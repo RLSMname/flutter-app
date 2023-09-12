@@ -4,7 +4,7 @@ import '../utils/constants.dart';
 
 class BottomText extends StatelessWidget {
    final bool isRegisterScreen;
-   const BottomText({super.key, required this.isRegisterScreen});
+   const BottomText(this.isRegisterScreen,{super.key});
 
   @override
   Widget build(BuildContext context) {
